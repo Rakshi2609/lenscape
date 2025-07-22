@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lenscape
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start  # or your real server start command
